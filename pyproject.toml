@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "takehome_mini_project"
+version = "0.1.0"
+description = "Franka Panda IK control with vision-based ball tracking in MuJoCo"
+requires-python = ">=3.13"
+
+dependencies = [
+    "mujoco",
+    "mediapy",
+    "numpy",
+    "Pillow",
+    "ultralytics",
+    "opencv-python",
+    "matplotlib",
+    "jupyter",
+    "ipykernel",
+]
