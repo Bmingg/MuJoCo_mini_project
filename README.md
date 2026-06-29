@@ -8,8 +8,9 @@
 
 Download YOLO World weights and place at `yolo_world/yolov8s-worldv2.pt`, or let `ultralytics` auto-download by running the notebook once with an internet connection. The project was developed on Python 3.13.5.
 ```
-pip install -e .
+pip install -e
 ```
+All codes are in ```main.ipynb```.
 ## Final Visualization
 
 https://github.com/user-attachments/assets/01cb8182-204f-4c36-8192-18bb07ee4831
